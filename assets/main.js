@@ -25,6 +25,13 @@ game.innerHTML = `
 
 	<p>Select your path by clicking on its associated button.</p>
 	`;
+	askButton.style.visibility = "hidden";
+	noOneButton.style.visibility = "hidden";
+	silentButton.style.visibility = "hidden";
+	tellMeButton.style.visibility = "hidden";
+	revealButton.style.visibility = "hidden";
+	getShotButton.style.visibility = "hidden";
+	typeButton.style.visibility = "hidden";
 
 // the game starts
 function startGame() {
