@@ -32,6 +32,9 @@ function startGame() {
 	askButton.style.visibility = "visible";
 	noOneButton.style.visibility = "visible";
 	silentButton.style.visibility = "visible";
+	tellMeButton.style.visibility = "hidden";
+	revealButton.style.visibility = "hidden";
+	getShotButton.style.visibility = "hidden";
 	game.innerHTML = `
 	<p>The room is small. No windows. Grey walls. The lights in the ceiling are harsh and cold. You are sitting in a small, uncomfortable chair at a nondescript black table.</p>
 
